@@ -2,6 +2,8 @@
 <html>
 <head> 
 <title> Hi! | Sloan.blue </title>
+
+<link rel="stylesheet" href="simple-grid.css">
 <style>
 ul {
     list-style-type: none;
@@ -35,20 +37,83 @@ li a:hover {
   <li><a href="#contact">Contact</a></li>
 </ul>
 
-<h1> Sloan Services </h1>
-
-Server Status: <img src="http://server.justinsloan.com/online.png" alt="status" onerror="this.src='offline.png'" />
-
-<dl>
-	<dt><a href="https://drive.sloan.blue">Cloud Storage</a></dt>
-	    <dd>Free cloud storage for your documents and files. Get 1GB for work files and Unlimited archive storage.</dd>
-        
-    <dt><a href="http://alex.sloan.blue">ALEX - the Army Lexicon</a></dt>
-	    <dd>Comprehensive language, acronym, and official website desk reference.</dd>
-</dl>
-	
-My personal website is at <a href="http://justinsloan.com">JustinSloan.com</a>
-
+<div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 center">
+          <div class="img img-logo center"></div>
+          <h1>Sloan Web Services</h1>
+          <h2 class="font-light">Server Status: <img src="http://server.justinsloan.com/online.png" alt="status" onerror="this.src='offline.png'" /></h2>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="body-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 center">
+          <div class="img img-responsive center"></div>
+          <h3><a href="https://drive.sloan.blue">Cloud Drive</a></h3>
+          <p>
+            Free cloud storage for your documents and files. Get 1GB for work files and Unlimited archive storage.
+          </p>
+        </div>
+        <div class="col-4 center">
+          <div class="img img-lightweight center"></div>
+          <h3><a href="http://alex.sloan.blue">ALEX</a></h3>
+          <p>
+            The Army Lexicon. A comprehensive language, acronym, and official website desk reference.
+          </p>
+        </div>
+        <div class="col-4 center">
+          <div class="img img-simple center"></div>
+          <h3>Email Forwarding</h3>
+          <p>
+            Get an @sloan.blue email address to use as an alias for your primary email.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 hidden-sm"></div>
+        <div class="col-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-4 hidden-sm"></div>
+      </div>
+      <div class="row">
+        <div class="col-2 hidden-sm"></div>
+        <div class="col-8">
+          <h3 class="center m-bottom">About</h3>
+          <p>
+            My personal website is at <a href="http://justinsloan.com">JustinSloan.com</a>.
+          </p>
+        </div>
+        <div class="col-2 hidden-sm"></div>
+      </div>
+      <div class="row">
+        <div class="col-2 hidden-sm"></div>
+        <div class="col-8">
+          <h3 class="center m-bottom">Contact</h3>
+          <p>
+            <script type="text/javascript">
+			<!---
+			function meal(){ var
+			dom='&#x73;&#x6C;&#x6F;&#x61;&#x6E;.&#x62;&#x6C;&#x75;&#x65;',
+			display='&#x73;&#x75;&#x70;&#x70;&#x6F;&#x72;&#x74;',
+			x40='&#x40;',
+			part1='&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;:',
+			name='&#x73;&#x75;&#x70;&#x70;&#x6F;&#x72;&#x74;';
+			stuff='';
+			document.write('For assistance, please send a message to <a title="'+display+'" href="'+part1+name+x40+dom+stuff+'">'+display+'<\/a>.');}
+			meal()
+			-->
+			</script>
+          </p>
+        </div>
+        <div class="col-2 hidden-sm"></div>
+      </div>
+    </div>
+</div>
 </body>
 
 </html>
